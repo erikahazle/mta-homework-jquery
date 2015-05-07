@@ -12,6 +12,8 @@ function menu() {
     var userInput = getUserInput();
     var tripLength = calculateStops(userInput);
     $('.search').append('<p>Your trip length is ' + tripLength + ' stops!</p>');
+    var pJson = JSON.stringify($('p').html())
+    localStorage.setItem('travel-history', pJson);
   }
 
 function calculateStops(userInput) {
@@ -68,6 +70,9 @@ EVENT LISTENERS
 $(document).ready(function() {
   // recordInput();
   var startTrain = $('select[name=start]').val();
+
+  var travelHistory = JSON.parse(localStorage.getItem('travel-history'));
+  console.log(travelHistory);
 
   $('select[name=start]').on('change', function() {
     startTrain = $(this).val();
