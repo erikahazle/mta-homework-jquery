@@ -2,6 +2,7 @@
 <html>
 <head>
   <title></title>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="jquery.js"></script>
@@ -9,26 +10,32 @@
 </head>
 <body>
   <div class="wrapper">
-  <div id="map">
-    <img id="logo" src="https://files.slack.com/files-pri/T0351JZQ0-F04LYJNE9/mta_map.gif">
+  <div id="NY">
+    <h1>Welcome to</h1>
+    <h2>New York</h2>
   </div>
   <div class="input">
+    <h5>Calculate your journey here:</h5>
     <select name='start' class="initial-train">
+      <option>Select the first train</option>
       <option id="N">Line N</option>
       <option id="L">Line L</option>
       <option id="6">Line 6</option>
     </select>
 
     <select class="initial-stop">
+      <option>Select the first station</option>
     </select>
 
     <select name='finish' class="last-train">
+      <option>Select the last train</option>
       <option>Line N</option>
       <option>Line L</option>
       <option>Line 6</option>
     </select>
 
     <select class="last-stop">
+      <option>Select the last station</option>
     </select>
   </div>
   <div class="search">

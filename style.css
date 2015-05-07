@@ -2,15 +2,57 @@ body {
   background-image: url('http://camp-campbell.com/wp-content/uploads/2014/09/o-NEW-YORK.jpg');
 }
 
-#map {
+.wrapper {
+  margin-top: 100px;
+}
+
+div {
+  padding: 20px;
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  background-color: rgb(160, 196, 205);
+  display: block;
+  margin: 20px 450px;
+  border-radius: 10px;
+}
+
+/**********************
+HEADING
+***********************/
+
+#NY {
+  margin-top: 100px;
   display: block;
   margin: 0 auto;
   text-align: center;
+  color: white;
 }
 
-#logo {
-  height: 400px;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
 }
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  margin-top: 0;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 23px;
+  margin-top: 0;
+}
+
+/**********************
+INPUT
+***********************/
 
 .input {
   display: block;
@@ -24,6 +66,21 @@ body {
   text-align: center;
 }
 
-div {
-  padding: 20px;
+select {
+  border: 'red';
+  width: 200px;
+  margin-right: 20px;
 }
+
+#calculate {
+  border-radius: 7px;
+  height: 30px;
+  width: 125px;
+  background-color: rgb(160, 196, 205);
+  border: none;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+
