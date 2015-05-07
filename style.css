@@ -1,0 +1,29 @@
+body {
+  background-image: url('http://camp-campbell.com/wp-content/uploads/2014/09/o-NEW-YORK.jpg');
+}
+
+#map {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo {
+  height: 400px;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div {
+  padding: 20px;
+}

@@ -2,11 +2,40 @@
 <html>
 <head>
   <title></title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+  <div class="wrapper">
+  <div id="map">
+    <img id="logo" src="https://files.slack.com/files-pri/T0351JZQ0-F04LYJNE9/mta_map.gif">
+  </div>
+  <div class="input">
+    <select name='selector' class="initial-train">
+      <option id="N">Line N</option>
+      <option id="L">Line L</option>
+      <option id="6">Line 6</option>
+    </select>
 
+    <select class="initial-stop">
+    </select>
+
+    <select class="last-train">
+      <option>Line N</option>
+      <option>Line L</option>
+      <option>Line 6</option>
+    </select>
+
+    <select class="last-stop">
+    </select>
+  </div>
+  <div class="search">
+    <button id="search">Search!</button>
+  </div>
+    
+
+  </div>
 </body>
 </html>
